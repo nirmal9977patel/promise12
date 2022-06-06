@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #navbar{
+        background-color: rgb(3, 101, 62);
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        text-align: center;
+        /* justify-items: center; */
+        /* font-size: px; */
+        color:black;
+        padding: 20px;
+
+      }
+      #show_food{
+        margin: auto;
+        justify-content: center;
+        border: 1px solid red;
+        width: 20%;
+        text-align: center;
+      }
+      img{
+        width: 100%;
+      }
+    </style>
+</head>
+<body>
+  <div id="navbar">
+   <h1>VIRTUAL MACDONAL'S</h1>
+  </div>
+  <hr>
+    <h2>Food Menu</h2>
+   <form action="" id="form">
+     <input type="checkbox" value="Burger" id="macd1">
+     <label for="macd1">Burger</label>
+     <br>
+     <input type="checkbox" value="Pizza" id="macd2">
+     <label for="mach2"> Pizza</label>
+     <br>
+
+     <input type="checkbox" value="Nudle" id="macd3">
+     <label for="macd3">Nuddal</label>
+     <br>
+
+     <input type="checkbox" value="Momose" id="macd4">
+     <label for="macd4">Momose</label>
+     <br>
+
+     <input type="checkbox" value="Ice_Cream" id="macd6">
+     <label for="macd6">Ice-Cream</label>
+     <br>
+
+     <input type="checkbox" value="Coca_Cola" id="macd7">
+     <label for="macd7">Coca_Cola</label>
+     <br>
+     <button id="Submit">Food Order</button>
+
+   </form>
+  </div>
+  <div id="show_food">
+  </div>
+  <div id="show_time"></div>
+</div>  
+</body>
+</html>
+<script src="index.js"></script>
